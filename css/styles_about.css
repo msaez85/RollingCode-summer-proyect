@@ -10,6 +10,7 @@ body{
     align-content: space-around;
     align-items: center;
     background-color: bisque;
+    border:1px solid black;
 }
 
 .about header{
@@ -17,16 +18,23 @@ body{
     height: 35vw;
     display: flex;
     align-items: center;
+    border:1px solid black;
 }
 
 .about main{
     width: 80vw;
-    height: 120vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    border:1px solid black;
 }
 
 .about footer{
     width: 80vw;
     height: 35vw;
+    border:1px solid black;
 }
 
 .top_image{
@@ -52,12 +60,6 @@ body{
     position:relative;
     top: 7vw;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-between;
-}
 
 .main_text{
     color: rgb(252, 9, 9);
@@ -80,6 +82,7 @@ main{
     width: 60vw;
     display: flex;
     flex-direction: column;
+    border:1px solid black;
 }
 
 .team h2{
@@ -117,4 +120,9 @@ main{
     .group{
      flex-wrap: wrap;
     }
+}
+
+footer{
+    display: flex; 
+    align-items:center
 }
