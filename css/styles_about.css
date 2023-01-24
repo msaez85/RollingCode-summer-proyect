@@ -4,37 +4,31 @@
     box-sizing: border-box;
 }
 
-body{
+.about{
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    justify-content:flex-start;
     align-items: center;
     background-color: bisque;
-    border:1px solid black;
 }
 
 .about header{
     width: 80vw;
-    height: 35vw;
     display: flex;
     align-items: center;
-    border:1px solid black;
 }
 
 .about main{
     width: 80vw;
-    height: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: space-between;
-    border:1px solid black;
 }
 
 .about footer{
-    width: 80vw;
-    height: 35vw;
-    border:1px solid black;
+    width: 100%;
+    margin-top: 2.5vw;
 }
 
 .top_image{
@@ -82,7 +76,7 @@ body{
     width: 60vw;
     display: flex;
     flex-direction: column;
-    border:1px solid black;
+
 }
 
 .team h2{
@@ -120,9 +114,33 @@ body{
     .group{
      flex-wrap: wrap;
     }
+    footer{
+        flex-wrap: wrap;
+    }
 }
 
 footer{
     display: flex; 
-    align-items:center
+    align-items:center;
+    justify-content:space-evenly;
+    background-color: darkcyan;
+    align-self: flex-end;
+    flex-wrap: wrap;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialnetwork{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin: 1vw;
 }
