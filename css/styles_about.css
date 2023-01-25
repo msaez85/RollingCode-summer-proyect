@@ -129,18 +129,35 @@ footer{
 }
 
 .social{
+    margin: 2vw;
+    height: 7vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.address{
+    margin: 2vw;
 }
 
 .media{
+    margin: 2vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.contact{
+    margin: 2vw;
 }
 
 .socialnetwork{
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 2.8vw;
+    height: 2.8vw;
     margin: 1vw;
+    filter: grayscale(100%);
+    transition: 0.5s;
+    border-radius: 50vw;
+    box-shadow: 10px 10px 5px black;
+}
+.socialnetwork:hover{
+    width: 4vw;
+    height: 4vw;
+    filter: none;
 }
